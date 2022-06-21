@@ -4,7 +4,7 @@ import Card3 from './Card3'
 const Notes = () => {
   return (
     <>
-        <Card3 />
+      <Card3 />
     </>
   )
 }

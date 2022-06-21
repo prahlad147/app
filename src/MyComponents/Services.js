@@ -3,8 +3,8 @@ import React from 'react'
 const Services = () => {
   return (
     <>
-    <p>Welcome to Services Page</p>
-</>
+      <p>Welcome to Services Page</p>
+    </>
   )
 }
 

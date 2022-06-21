@@ -4,20 +4,20 @@ import Card from './Card';
 
 
 const Home = () => {
-  return (
-    <>
-    
+    return (
+        <>
 
 
-    {/* <Card />
+
+            {/* <Card />
     <Card />
     <Card /> */}
 
 
 
 
-    </>
-  )
+        </>
+    )
 }
 
 export default Home;

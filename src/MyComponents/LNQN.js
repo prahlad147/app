@@ -20,7 +20,7 @@ const LNQN = () => {
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/app/lectures">ALL</a></li>
                   <li><a class="dropdown-item" href="/app/lectures">LIVE</a></li>
-                  <li><a class="dropdown-item" href="/lectures">RECORDED</a></li>
+                  <li><a class="dropdown-item" href="/app/lectures">RECORDED</a></li>
                 </ul>
               </div>
 

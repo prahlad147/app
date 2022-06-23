@@ -18,21 +18,21 @@ const LNQN = () => {
                   Lectures
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/app/lectures">ALL</a></li>
-                  <li><a class="dropdown-item" href="/app/lectures">LIVE</a></li>
-                  <li><a class="dropdown-item" href="/app/lectures">RECORDED</a></li>
+                  <li><a class="dropdown-item" href="/lectures">ALL</a></li>
+                  <li><a class="dropdown-item" href="/lectures">LIVE</a></li>
+                  <li><a class="dropdown-item" href="/lectures">RECORDED</a></li>
                 </ul>
               </div>
 
             </div>
             <div class="col">
-              <a className="nav-link" href="/app/notes">Notes</a>
+              <a className="nav-link" href="/notes">Notes</a>
             </div>
             <div class="col">
-              <a className="nav-link" href="/app/quizzes">Quizzes</a>
+              <a className="nav-link" href="/quizzes">Quizzes</a>
             </div>
             <div class="col">
-              <a className="nav-link" href="/app/notifications">Notifications</a>
+              <a className="nav-link" href="/notifications">Notifications</a>
             </div>
           </div>
         </div>

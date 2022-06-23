@@ -21,11 +21,14 @@ import Quizzes from './MyComponents/Quizzes';
 import Notes from './MyComponents/Notes';
 import Survey from './MyComponents/Survey';
 import Discover3 from './MyComponents/Discover3';
+import { HashRouter } from "react-router-dom";
+import Homepage from './MyComponents/Homepage';
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Homepage />
+
       {/* <Discover /> */}
       <Discover2 />
       <Search />
@@ -42,7 +45,7 @@ function App() {
           <Route path='/lectures' element={<Lectures />} />
           <Route path='/notifications' element={<Notifications />} />
           <Route path='/quizzes' element={<Quizzes />} />
-          <Route path='/app/notes' element={<Notes />} />
+          <Route path='/notes' element={<Notes />} />
           <Route path='/survey' element={<Survey />} />
           <Route path='/discover' element={<Discover3 />}>
 
